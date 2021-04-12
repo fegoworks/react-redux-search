@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
-import Results from './results'
-import Search from './search'
+import Results from './Results'
+import Search from './Search'
 
 const Home = () => (
   <Home.Container>
