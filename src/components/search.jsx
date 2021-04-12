@@ -23,7 +23,7 @@ const Search = () => {
   return (
     <Search.Wrapper>
       <h2 className="main_header">Search<span className="dot">.</span></h2>
-      <p className="sub_header"><span>HowdyLearning</span> searching for random names</p>
+      <p className="sub_header"><span>HowdyLearning</span> searching for random texts</p>
       <form className='search'>
         <input autoFocus placeholder="Enter some random text" value={textInput} onChange={inputHandler} type='text' />
         <button onClick={submitSearch} type='submit'>
